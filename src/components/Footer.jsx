@@ -34,11 +34,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand info and social presence */}
           <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-8 text-center hover:-translate-y-2 transition">
-            <img
-              src="/image/logo.png"
-              alt="Bhusan Mart"
-              className="mx-auto w-40 mb-4"
-            />
+            <div className="mx-auto w-24 h-24 mb-4 rounded-full border border-cyan-400/40 bg-cyan-400/10 flex items-center justify-center">
+              <span className="text-cyan-300 font-bold text-2xl tracking-widest">
+                HM
+              </span>
+            </div>
 
             <p className="text-sm text-white/70">
               Your destination for cutting-edge gadgets.
@@ -107,7 +107,7 @@ const Footer = () => {
 
             <img
               src="/image/card2.png"
-              alt="Bhusan Mart Store"
+              alt="Himanshu Mart Store"
               className="w-[170px] mx-auto mt-2 opacity-90 hover:opacity-100 transition"
             />
           </div>
@@ -149,7 +149,7 @@ const Footer = () => {
 
             <img
               src="/image/card.png"
-              alt="Bhusan Mart Preview"
+              alt="Himanshu Mart Preview"
               className="w-40 mx-auto mt-6"
             />
           </div>
@@ -157,15 +157,15 @@ const Footer = () => {
 
         {/* Copyright and legal links */}
         <div className="border-t border-white/10 mt-16 pt-6 text-center text-sm text-white/60">
-          <span className="text-orange-400 font-semibold">Bhusan Mart</span> ~
+          <span className="text-orange-400 font-semibold">Himanshu Mart</span> ~
           Designed with ❤️ by{" "}
           <a
-            href="https://www.linkedin.com/in/biswabhusanmohapatra"
+            href="https://linkedin.com/in/himanshu-more"
             target="_blank"
             rel="noopener noreferrer"
             className="text-cyan-400 hover:text-yellow-300 transition font-medium"
           >
-            Biswabhusan Mohapatra
+            Himanshu More
           </a>
           <div className="flex justify-center gap-8 mt-4">
             {["Privacy", "Terms", "Sitemap"].map((item) => (

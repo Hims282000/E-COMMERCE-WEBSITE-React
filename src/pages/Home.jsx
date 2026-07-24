@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { ProductContext } from "../contexts/ProductContext";
 import Product from "../components/Product";
 import Hero from "../components/Hero";
-import AboutBhusanMart from "../components/AboutBhusanMart";
+import AboutHimanshuMart from "../components/AboutHimanshuMart";
 import ContactSection from "../components/ContactSection";
 import CategoryFilter from "../components/CategoryFilter";
 import PriceFilter from "../components/PriceFilter";
@@ -43,7 +43,7 @@ const Home = () => {
       </section>
 
       {/* Static informational sections */}
-      <AboutBhusanMart />
+      <AboutHimanshuMart />
       <ContactSection />
     </div>
   );

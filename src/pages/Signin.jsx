@@ -67,11 +67,11 @@ const Signin = () => {
       <div className="relative z-10 w-full max-w-md">
         <div className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-8 shadow-2xl">
           <div className="flex justify-center mb-4">
-            <img
-              src="/image/logo.png"
-              alt="Bhusan Mart"
-              className="w-20 h-20 rounded-full shadow-lg"
-            />
+            <div className="w-20 h-20 rounded-full shadow-lg border border-cyan-400/40 bg-cyan-400/10 flex items-center justify-center">
+              <span className="text-cyan-300 font-bold text-2xl tracking-widest">
+                HM
+              </span>
+            </div>
           </div>
 
           <h2 className="text-3xl font-semibold text-center text-white">

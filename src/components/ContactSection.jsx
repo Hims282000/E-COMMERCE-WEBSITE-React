@@ -48,10 +48,10 @@ const ContactSection = () => {
         {/* Heading */}
         <div className="text-center mb-20">
           <h2 className="text-4xl font-bold text-white tracking-wide">
-            Contact <span className="text-cyan-400">Bhusan Mart</span>
+            Contact <span className="text-cyan-400">Himanshu Mart</span>
           </h2>
           <p className="text-white/70 mt-3">
-            We’re here to help — connect with us anytime
+            We’re here to help connect with us anytime
           </p>
         </div>
 
@@ -80,7 +80,7 @@ const ContactSection = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="example@bhusanmart.com"
+                  placeholder="example@himanshumart.com"
                   className="w-full px-4 py-3 rounded-lg bg-transparent border border-white/20 text-white placeholder-white/40 focus:outline-none focus:border-cyan-400"
                 />
               </div>

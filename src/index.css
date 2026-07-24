@@ -96,14 +96,14 @@ button {
 
 /* Branding and UI elements */
 
-.bhusan-mart {
+.himanshu-mart {
   background-color: rgba(202, 221, 221, 0.523);
   border: 2px solid bisque;
   border-radius: 50%;
   transition: box-shadow 0.3s ease;
 }
 
-.bhusan-mart:hover {
+.himanshu-mart:hover {
   box-shadow: 0 0 15px rgb(56, 189, 248);
 }
 

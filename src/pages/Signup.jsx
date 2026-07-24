@@ -63,18 +63,18 @@ const Signup = () => {
           "
         >
           <div className="flex justify-center mb-4">
-            <img
-              src="/image/logo.png"
-              alt="Bhusan Mart Logo"
-              className="w-20 h-20 rounded-full shadow-md"
-            />
+            <div className="w-20 h-20 rounded-full shadow-md border border-cyan-400/40 bg-cyan-400/10 flex items-center justify-center">
+              <span className="text-cyan-300 font-bold text-2xl tracking-widest">
+                HM
+              </span>
+            </div>
           </div>
 
           <h2 className="text-3xl font-semibold text-center text-white mb-1">
             Create Account
           </h2>
           <p className="text-center text-white/60 mb-6">
-            Join Bhusan Mart & start shopping smarter
+            Join Himanshu Mart & start shopping smarter
           </p>
 
           {error && (

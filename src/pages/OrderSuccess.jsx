@@ -42,7 +42,7 @@ const OrderSuccess = () => {
 
         {/* Message */}
         <p className="text-white/70 leading-relaxed mb-8">
-          Thank you for shopping with Bhusan Mart. Your order has been confirmed
+          Thank you for shopping with Himanshu Mart. Your order has been confirmed
           and will be delivered within
           <span className="text-cyan-400 font-medium"> 2 business days</span>.
         </p>

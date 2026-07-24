@@ -1,14 +1,14 @@
-# Bhusan Mart – React E-Commerce Application
+# Himanshu Mart – React E-Commerce Application
 
-Bhusan Mart is a **modern React-based e-commerce web application** that demonstrates real-world shopping cart functionality, global state management, product filtering, authentication flow, and a polished user interface.
+Himanshu Mart is a **modern React-based e-commerce web application** that demonstrates real-world shopping cart functionality, global state management, product filtering, authentication flow, and a polished user interface.
 
 The project is built with a focus on **clean architecture, reusable components, and practical business logic**, making it suitable for learning, portfolio showcase, and real-world frontend practice.
 
 ---
 ## Live Demo
 
-**Website:** https://bhusan-mart.vercel.app/  
-**GitHub Repository:** https://github.com/IAmBiswabhusan/E-COMMERCE-WEBSITE-React
+  
+**GitHub Repository:** https://github.com/Hims282000/E-COMMERCE-WEBSITE-React
 
 ## Screenshots
 
@@ -38,7 +38,7 @@ The project is built with a focus on **clean architecture, reusable components, 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8bd1512-24de-452a-b40a-014110d9e000" />
 
 
-### Why Choose Bhusan Mart Section
+### Why Choose Himanshu Mart Section
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f25261f3-46ed-4257-842c-5d712997132d" />
 
@@ -177,8 +177,8 @@ npm run preview
 
 ##  Author
 
-**Biswabhusan Mohapatra**  
+**Himanshu More**  
 Aspiring Developer & React Enthusiast  
 
- Email: `iambiswabhusan0@gmail.com`  
-🔗 LinkedIn: [Biswabhusan Mohapatra](https://www.linkedin.com/in/biswabhusanmohapatra)
+ Email: `iamhims738@gmail.com`  
+🔗 LinkedIn: [Himanshu More](https://linkedin.com/in/himanshu-more)

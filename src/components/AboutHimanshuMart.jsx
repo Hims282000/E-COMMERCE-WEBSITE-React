@@ -1,7 +1,6 @@
 import React from "react";
-import aboutImg from "/image/ecompost.png";
 
-const AboutBhusanMart = () => {
+const AboutHimanshuMart = () => {
   return (
     <section
       className="
@@ -31,11 +30,11 @@ const AboutBhusanMart = () => {
         {/* Section heading */}
         <div className="text-center mb-24">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Why Choose <span className="text-cyan-400">Bhusan Mart</span>
+            Why Choose <span className="text-cyan-400">Himanshu Mart</span>
           </h2>
 
           <p className="text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            Bhusan Mart is committed to delivering premium gadgets, trusted
+            Himanshu Mart is committed to delivering premium gadgets, trusted
             service, and a seamless shopping experience.
           </p>
         </div>
@@ -100,18 +99,26 @@ const AboutBhusanMart = () => {
                 "
               />
 
-              <img
-                src={aboutImg}
-                alt="Bhusan Mart"
+              <div
                 className="
-                  relative z-10 max-w-sm w-full
+                  relative z-10 w-[320px] h-[320px] rounded-[2.5rem]
+                  border border-cyan-400/30 bg-white/5 backdrop-blur-xl
                   drop-shadow-[0_0_50px_rgba(56,189,248,0.35)]
-                  transform scale-110 translate-y-2
+                  transform scale-110 translate-y-2 flex items-center justify-center
                   transition-all duration-700 ease-out
                   group-hover:scale-100
                   group-hover:translate-y-0
                 "
-              />
+              >
+                <div className="text-center px-8">
+                  <div className="text-cyan-300 text-5xl font-bold tracking-[0.35em] ml-4">
+                    HM
+                  </div>
+                  <p className="mt-6 text-white text-xl font-semibold">
+                    Trusted tech. Fast delivery. Better value.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -165,4 +172,4 @@ const AboutBhusanMart = () => {
   );
 };
 
-export default AboutBhusanMart;
+export default AboutHimanshuMart;
