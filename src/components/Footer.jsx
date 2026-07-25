@@ -105,11 +105,14 @@ const Footer = () => {
               </div>
             </div>
 
-            <img
-              src="/image/card2.png"
-              alt="Himanshu Mart Store"
-              className="w-[170px] mx-auto mt-2 opacity-90 hover:opacity-100 transition"
-            />
+            <div className="w-[170px] mx-auto mt-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-6 text-center opacity-90 hover:opacity-100 transition">
+              <p className="text-cyan-300 font-semibold text-sm tracking-[0.2em]">
+                STORE
+              </p>
+              <p className="mt-2 text-white/70 text-xs">
+                Browse curated tech collections and trending products.
+              </p>
+            </div>
           </div>
 
           {/* Newsletter subscription section */}
@@ -147,11 +150,14 @@ const Footer = () => {
               </button>
             </div>
 
-            <img
-              src="/image/card.png"
-              alt="Himanshu Mart Preview"
-              className="w-40 mx-auto mt-6"
-            />
+            <div className="w-40 mx-auto mt-6 rounded-2xl border border-orange-400/20 bg-orange-400/10 px-4 py-5 text-center">
+              <p className="text-orange-300 font-semibold text-sm">
+                Exclusive Offers
+              </p>
+              <p className="mt-2 text-white/70 text-xs">
+                Early access to deals, launches, and updates.
+              </p>
+            </div>
           </div>
         </div>
 
